@@ -31,3 +31,8 @@ Below is short explanation of remaining files in the project folder.
 ```
 Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
 They are not used or needed when building with CMake and idf.py.
+
+## Personal Suggestion for installation
+
+1. Use the IDE installation as suggested by Espressif Docs.
+2. When cloning the repo, run the files <b>WITHIN<b> the esp folder (Similar to how the hello_world example is run in the 'Getting Started' tutorial in documentation. This solves issues with CMake not being able to resolve the PATH 
